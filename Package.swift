@@ -4,11 +4,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "Pushwoosh",
+    name: "PushwooshFramework",
     products: [
         .library(
-            name: "Pushwoosh",
-            targets: ["Pushwoosh"]),
+            name: "PushwooshFramework",
+            targets: ["PushwooshFramework"]),
     ],
     targets: [
         .binaryTarget(
