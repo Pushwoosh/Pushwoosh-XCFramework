@@ -23,22 +23,22 @@ let package = Package(
         .binaryTarget(
             name: "PushwooshFramework",
             url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.2/PushwooshFramework.xcframework.zip",
-            checksum: "b7419deeea4d66dcba59421ee6dc0f7d58cdc260689e3630b220bcfd2a9d6065"
+            checksum: "33ee8ed56dcdaaf3cbd68f104dfe2ea77ae409e14cd2ece9bbfc07e5c4bc6529"
         ),
         .binaryTarget(
             name: "PushwooshCore",
             url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.2/PushwooshCore.xcframework.zip",
-            checksum: "e09627d3adadf0c0ba7288f58084ff7700a0b57ccda2cc84d40ca0426f2b000e"
+            checksum: "d9acd163341d12dcae6a3488fb8617004484c94c14123d7018596fc4043440f9"
         ),
         .binaryTarget(
             name: "PushwooshBridge",
             url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.2/PushwooshBridge.xcframework.zip",
-            checksum: "060201814fd916d2f48d1c20c874aec1ac3b5c609eac463f93e83f37abf5d1f8"
+            checksum: "75aa37ebdf1a03ad95fb17133fa5beb2c92a6ba1f93ad6becba02acf9a54bdff"
         ),
         .binaryTarget(
             name: "PushwooshLiveActivities",
             url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.2/PushwooshLiveActivities.xcframework.zip",
-            checksum: "41c3730be4e6f3cb368841d83b51e47035eb2034df0db6ceb412fb3631bc88cb"
+            checksum: "d7f409ed7d0e4e2dda5780f41ccfe7c137d81d8ed305d8dd7f91a567e52f2519"
         )
     ]
 )
