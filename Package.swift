@@ -22,23 +22,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PushwooshFramework",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.2/PushwooshFramework.xcframework.zip",
-            checksum: "33ee8ed56dcdaaf3cbd68f104dfe2ea77ae409e14cd2ece9bbfc07e5c4bc6529"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.3/PushwooshFramework.xcframework.zip",
+            checksum: "413502b84f912502560f5a517914e61ca50940fff23268499ab9f1b4fd5fa0b0"
         ),
         .binaryTarget(
             name: "PushwooshCore",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.2/PushwooshCore.xcframework.zip",
-            checksum: "d9acd163341d12dcae6a3488fb8617004484c94c14123d7018596fc4043440f9"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.3/PushwooshCore.xcframework.zip",
+            checksum: "b7c0ba49ce66f96b4be9a0798ad20e3f1736835e6b2cb9923efd6ad5fbb97417"
         ),
         .binaryTarget(
             name: "PushwooshBridge",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.2/PushwooshBridge.xcframework.zip",
-            checksum: "75aa37ebdf1a03ad95fb17133fa5beb2c92a6ba1f93ad6becba02acf9a54bdff"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.3/PushwooshBridge.xcframework.zip",
+            checksum: "a8db31441a778a163559e89949ad8b24d24d2af56f147cc45efb48fa0796d1ae"
         ),
         .binaryTarget(
             name: "PushwooshLiveActivities",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.2/PushwooshLiveActivities.xcframework.zip",
-            checksum: "d7f409ed7d0e4e2dda5780f41ccfe7c137d81d8ed305d8dd7f91a567e52f2519"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.3/PushwooshLiveActivities.xcframework.zip",
+            checksum: "d8b1690b031b85a5eaec9e1a68b1bee4425c74ebec28c61d29cac80efcd99160"
         )
     ]
 )
