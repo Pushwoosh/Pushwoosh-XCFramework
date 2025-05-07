@@ -22,23 +22,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PushwooshFramework",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.3/PushwooshFramework.xcframework.zip",
-            checksum: "413502b84f912502560f5a517914e61ca50940fff23268499ab9f1b4fd5fa0b0"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.4/PushwooshFramework.xcframework.zip",
+            checksum: "5d3d1ee9d04ba99dcc7e3d3e843700556bc5b3b2d7a1db3423d4005240a726bd"
         ),
         .binaryTarget(
             name: "PushwooshCore",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.3/PushwooshCore.xcframework.zip",
-            checksum: "b7c0ba49ce66f96b4be9a0798ad20e3f1736835e6b2cb9923efd6ad5fbb97417"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.4/PushwooshCore.xcframework.zip",
+            checksum: "15e24268bac0ffdc838f7eb10b1fa6ba26db91b8e507438a88e2c897e3ebdc75"
         ),
         .binaryTarget(
             name: "PushwooshBridge",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.3/PushwooshBridge.xcframework.zip",
-            checksum: "a8db31441a778a163559e89949ad8b24d24d2af56f147cc45efb48fa0796d1ae"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.4/PushwooshBridge.xcframework.zip",
+            checksum: "20736529cd67791524c3ea573b5cc09ff2a2d835b6fbef51ba86a80fa75956e1"
         ),
         .binaryTarget(
             name: "PushwooshLiveActivities",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.3/PushwooshLiveActivities.xcframework.zip",
-            checksum: "d8b1690b031b85a5eaec9e1a68b1bee4425c74ebec28c61d29cac80efcd99160"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.4/PushwooshLiveActivities.xcframework.zip",
+            checksum: "61fe7c9d75ace2d8eb7c934a45cd2b0feb822b894d0622b97bec21ee3412980f"
         )
     ]
 )
