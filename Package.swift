@@ -22,23 +22,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PushwooshFramework",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.4/PushwooshFramework.xcframework.zip",
-            checksum: "5d3d1ee9d04ba99dcc7e3d3e843700556bc5b3b2d7a1db3423d4005240a726bd"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.5/PushwooshFramework.xcframework.zip",
+            checksum: "5906df83e89e78e0454f0b06fd6d5490a27a824ce7c7f6a868728c12ee5de7b2"
         ),
         .binaryTarget(
             name: "PushwooshCore",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.4/PushwooshCore.xcframework.zip",
-            checksum: "15e24268bac0ffdc838f7eb10b1fa6ba26db91b8e507438a88e2c897e3ebdc75"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.5/PushwooshCore.xcframework.zip",
+            checksum: "74f948bdf7ffb438755fc47877e7e1494c1fa49dbc7040b5352b0646e795431c"
         ),
         .binaryTarget(
             name: "PushwooshBridge",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.4/PushwooshBridge.xcframework.zip",
-            checksum: "20736529cd67791524c3ea573b5cc09ff2a2d835b6fbef51ba86a80fa75956e1"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.5/PushwooshBridge.xcframework.zip",
+            checksum: "33da8389cf926753a6125a2c986661529d47396ba6bdd0bdd83e52a06b28c6de"
         ),
         .binaryTarget(
             name: "PushwooshLiveActivities",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.4/PushwooshLiveActivities.xcframework.zip",
-            checksum: "61fe7c9d75ace2d8eb7c934a45cd2b0feb822b894d0622b97bec21ee3412980f"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.5/PushwooshLiveActivities.xcframework.zip",
+            checksum: "f03a38e688b1e30bb6d3a68319d8d0a1089a55e8e68f769e13bf146a4a966389"
         )
     ]
 )
