@@ -22,23 +22,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PushwooshFramework",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.5/PushwooshFramework.xcframework.zip",
-            checksum: "5906df83e89e78e0454f0b06fd6d5490a27a824ce7c7f6a868728c12ee5de7b2"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.6/PushwooshFramework.xcframework.zip",
+            checksum: "f82deae7dc2cb81914ae71d26b608bf27f9cc79ac9b465fbe7e203633035164c"
         ),
         .binaryTarget(
             name: "PushwooshCore",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.5/PushwooshCore.xcframework.zip",
-            checksum: "74f948bdf7ffb438755fc47877e7e1494c1fa49dbc7040b5352b0646e795431c"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.6/PushwooshCore.xcframework.zip",
+            checksum: "50106fcd0e44683c044bb7183786156964ad4c597ea9e4dfe73152f63ca8d431"
         ),
         .binaryTarget(
             name: "PushwooshBridge",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.5/PushwooshBridge.xcframework.zip",
-            checksum: "33da8389cf926753a6125a2c986661529d47396ba6bdd0bdd83e52a06b28c6de"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.6/PushwooshBridge.xcframework.zip",
+            checksum: "f2bfe120ac20d910ddd2a311ae66aab7d9c098a855133699f1db550e93aacbf9"
         ),
         .binaryTarget(
             name: "PushwooshLiveActivities",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.5/PushwooshLiveActivities.xcframework.zip",
-            checksum: "f03a38e688b1e30bb6d3a68319d8d0a1089a55e8e68f769e13bf146a4a966389"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/6.8.6/PushwooshLiveActivities.xcframework.zip",
+            checksum: "2d646661bfc473309bb4f7f850247a63e6cf1947be64ffbaee8c0ea105bf2ff1"
         )
     ]
 )
