@@ -31,38 +31,38 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PushwooshFramework",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.1/PushwooshFramework.xcframework.zip",
-            checksum: "84bcb163c0df4604528bde339a13e96d270bfe05e5724098ae147514bedcd668"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.2/PushwooshFramework.xcframework.zip",
+            checksum: "668ef253550cc4e361edd9a9cb8d69866c3d1cce256a06b8c1b9eb42811428e5"
         ),
         .binaryTarget(
             name: "PushwooshCore",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.1/PushwooshCore.xcframework.zip",
-            checksum: "31d3d69d08c43b2d2d7b62054968b5271e22c8a92b7739a4e223a781caf6f7cf"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.2/PushwooshCore.xcframework.zip",
+            checksum: "ef44fe56acc4caf6214f184bade567b80b217dfdf5f563dc0e454faf8515d67f"
         ),
         .binaryTarget(
             name: "PushwooshBridge",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.1/PushwooshBridge.xcframework.zip",
-            checksum: "f22888e8fb3fc552f55441d0c04c38c0b3f729f6a272dd82d3340ddf5eea5fb6"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.2/PushwooshBridge.xcframework.zip",
+            checksum: "7dfc0ad58ffce7a0a0688163cd83c36cbeb209b0c177841c8c66b6ae80df5eac"
         ),
         .binaryTarget(
             name: "PushwooshLiveActivities",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.1/PushwooshLiveActivities.xcframework.zip",
-            checksum: "9579bdb4bf36ff113dec55d712469fa6a155b6cb6366d76d3b07c000f3454c73"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.2/PushwooshLiveActivities.xcframework.zip",
+            checksum: "06bbf76b6b54855e214bdd43dd0d2734598243cb547eeba03f0e401a9820ded4"
         ),
         .binaryTarget(
             name: "PushwooshVoIP",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.1/PushwooshVoIP.xcframework.zip",
-            checksum: "ace18586c4c830496bf9a87ec3806f72c5d19683e5a29e4ab012ecbfaf747f57"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.2/PushwooshVoIP.xcframework.zip",
+            checksum: "9db81691f8d03f5673545a6dfacef47a3e9757d483d8a2afe02197ea7e7afdf3"
         ),
         .binaryTarget(
             name: "PushwooshTVOS",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.1/PushwooshTVOS.xcframework.zip",
-            checksum: "07c997408be3ef880267483fa905937c14e00a0c65f9561acb8b9b818becda27"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.2/PushwooshTVOS.xcframework.zip",
+            checksum: "91fbf0a62c34f152f428f58e9aa35ca8597d9f20c4acc20139ce55c185e5cced"
         ),
         .binaryTarget(
             name: "PushwooshForegroundPush",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.1/PushwooshForegroundPush.xcframework.zip",
-            checksum: "77e71dee68a1918e9e6c44ad2b49b2ad88abf2c86ac98dbd4012e6f2c782eea7"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.2/PushwooshForegroundPush.xcframework.zip",
+            checksum: "356ba10b1f184bf7d7386d9ea8c5ad864b2e65f91ae57169662ff273b8198ff8"
         )
     ]
 )
