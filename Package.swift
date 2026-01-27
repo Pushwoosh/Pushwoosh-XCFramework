@@ -34,43 +34,43 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PushwooshFramework",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.16/PushwooshFramework.xcframework.zip",
-            checksum: "815edf97658c5272b621f4ba064c959e872d328f8847470bcd22297d544418ec"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.17/PushwooshFramework.xcframework.zip",
+            checksum: "b762273acf4997a405cea802ed2bc60a7c10fd97d2d784180bc8dcbad7ebf9ed"
         ),
         .binaryTarget(
             name: "PushwooshCore",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.16/PushwooshCore.xcframework.zip",
-            checksum: "1aeb980d8e454880550cbd99369c5ec247c46687f0816ebada1cf32aa1c02dde"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.17/PushwooshCore.xcframework.zip",
+            checksum: "a75a34b7590dcf70ffb78691126b675d26e1daa20fd3c04886d0efcb77cae6cd"
         ),
         .binaryTarget(
             name: "PushwooshBridge",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.16/PushwooshBridge.xcframework.zip",
-            checksum: "e592e4c24fda34543a641d0321119868a5b022efb806b57765ee99401cd6788d"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.17/PushwooshBridge.xcframework.zip",
+            checksum: "061a9b7834099e2a3099466518894dcf00267837a2aaf5c154a91005d663603a"
         ),
         .binaryTarget(
             name: "PushwooshLiveActivities",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.16/PushwooshLiveActivities.xcframework.zip",
-            checksum: "cf3a4ec75fa1862fb723ccee91a8ef00c34fc1c1ff537be46e906343bc9d6a70"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.17/PushwooshLiveActivities.xcframework.zip",
+            checksum: "bcb1434b26c9bd99298952b69844d74d70a597eb9a6f8d2ba8250b7d4728445e"
         ),
         .binaryTarget(
             name: "PushwooshVoIP",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.16/PushwooshVoIP.xcframework.zip",
-            checksum: "25c5af2094a9c049764aa2e97dba786a3c74cf3b62337b20ba29bb19d82b5046"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.17/PushwooshVoIP.xcframework.zip",
+            checksum: "156a3b7305d6ff0a9c36c5d43662103fb263cc5102a86268eb5301cbc177d698"
         ),
         .binaryTarget(
             name: "PushwooshTVOS",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.16/PushwooshTVOS.xcframework.zip",
-            checksum: "e51a7f088a98913e5a1710112981673074f6c7be7b47e129d55813c359c9046b"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.17/PushwooshTVOS.xcframework.zip",
+            checksum: "e980f825ab1c74b9c98e6c56eee2faf3365b9202acb3c73834f18651835aa443"
         ),
         .binaryTarget(
             name: "PushwooshForegroundPush",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.16/PushwooshForegroundPush.xcframework.zip",
-            checksum: "59ba2f47ef9321df9ddac2fd44d0e219061f9d1ae4a1406726d15b3e8ed85a4c"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.17/PushwooshForegroundPush.xcframework.zip",
+            checksum: "b0cff58304c90d3936a44f95b988f5be6a466ca8300b59dd8fd822fc2a6bec61"
         ),
         .binaryTarget(
             name: "PushwooshKeychain",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.16/PushwooshKeychain.xcframework.zip",
-            checksum: "4cb6fd23c9bdcc3cf2eab870b5bd8eb8fe031f115ab7b8b451b9fc106632ba73"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.0.17/PushwooshKeychain.xcframework.zip",
+            checksum: "5fbcc985e8b3e40f4893ea81ed97a8dda49c5f3d9d2ac375bc94634e358bc809"
         )
     ]
 )
