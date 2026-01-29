@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="pushwoosh.svg" alt="Pushwoosh" width="300">
+</p>
+
 # Pushwoosh iOS SDK
 
 [![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20iPadOS%20%7C%20tvOS%20%7C%20Mac%20Catalyst-lightgrey.svg?style=flat-square)](https://www.apple.com/ios/)
@@ -7,7 +11,20 @@
 
 Push notifications, In-App Messaging, and more for iOS, tvOS, and watchOS applications.
 
-## 📚 Documentation
+## Table of Contents
+
+- [Documentation](#documentation)
+- [Features](#features)
+- [Installation](#installation)
+  - [Swift Package Manager](#swift-package-manager-recommended)
+  - [CocoaPods](#cocoapods)
+- [AI-Assisted Integration](#ai-assisted-integration)
+- [Quick Start](#quick-start)
+- [Modules](#modules)
+- [Support](#support)
+- [License](#license)
+
+## Documentation
 
 [![Pushwoosh Documentation](https://img.shields.io/badge/docs-Pushwoosh-blue.svg?style=flat-square)](https://pushwoosh.github.io/pushwoosh-ios-sdk/PushwooshiOS/documentation/pushwooshframework/)
 [![PushwooshVoIP Documentation](https://img.shields.io/badge/docs-PushwooshVoIP-blue.svg?style=flat-square)](https://pushwoosh.github.io/pushwoosh-ios-sdk/PushwooshVoIP/documentation/pushwooshvoip/)
@@ -15,8 +32,9 @@ Push notifications, In-App Messaging, and more for iOS, tvOS, and watchOS applic
 [![PushwooshTVOS Documentation](https://img.shields.io/badge/docs-PushwooshTVOS-blue.svg?style=flat-square)](https://pushwoosh.github.io/pushwoosh-ios-sdk/PushwooshTVOS/documentation/pushwooshtvos/)
 [![PushwooshForegroundPush Documentation](https://img.shields.io/badge/docs-PushwooshForegroundPush-blue.svg?style=flat-square)](https://pushwoosh.github.io/pushwoosh-ios-sdk/PushwooshForegroundPush/documentation/pushwooshforegroundpush/)
 [![PushwooshKeychain Documentation](https://img.shields.io/badge/docs-PushwooshKeychain-blue.svg?style=flat-square)](https://pushwoosh.github.io/pushwoosh-ios-sdk/PushwooshKeychain/documentation/pushwooshkeychain/)
+[![PushwooshGRPC Documentation](https://img.shields.io/badge/docs-PushwooshGRPC-blue.svg?style=flat-square)](https://pushwoosh.github.io/pushwoosh-ios-sdk/PushwooshGRPC/documentation/pushwooshgrpc/)
 
-## 🚀 Features
+## Features
 
 ### Core SDK
 - **Push Notifications** - Standard push notifications with rich media support
@@ -31,7 +49,7 @@ Push notifications, In-App Messaging, and more for iOS, tvOS, and watchOS applic
 - **tvOS Support** - Push notifications and Rich Media for Apple TV
 - **Foreground Push** - Custom foreground notifications with animations and effects
 
-## 📦 Installation
+## Installation
 
 ### Swift Package Manager (Recommended)
 
@@ -47,7 +65,7 @@ Select the modules you need in your target's **Frameworks, Libraries, and Embedd
 - `PushwooshFramework` - Core SDK **(required)**
 - `PushwooshCore` - Core functionality **(required)**
 - `PushwooshBridge` - Bridge module **(required)**
-- `PushwooshLiveActivities` - Live Activities support **(required)**
+- `PushwooshLiveActivities` - Live Activities support *(optional)*
 - `PushwooshVoIP` - VoIP push notifications *(optional)*
 - `PushwooshTVOS` - tvOS support *(optional)*
 - `PushwooshForegroundPush` - Custom foreground notifications *(optional)*
@@ -65,6 +83,7 @@ Add to your `Podfile`:
 pod 'PushwooshXCFramework'
 
 # Optional modules
+pod 'PushwooshXCFramework/PushwooshLiveActivities'
 pod 'PushwooshXCFramework/PushwooshVoIP'
 pod 'PushwooshXCFramework/PushwooshTVOS'
 pod 'PushwooshXCFramework/PushwooshForegroundPush'
@@ -78,7 +97,7 @@ Then run:
 pod install
 ```
 
-## 🤖 AI-Assisted Integration
+## AI-Assisted Integration
 
 Integrate Pushwoosh iOS SDK using AI coding assistants (Claude Code, Cursor, GitHub Copilot, etc.).
 
@@ -138,7 +157,7 @@ Use Context7 MCP to fetch PushwooshLiveActivities documentation.
 
 ---
 
-## 🔧 Quick Start
+## Quick Start
 
 ### 1. Initialize SDK
 
@@ -175,7 +194,7 @@ func application(_ application: UIApplication,
 }
 ```
 
-## 📱 Modules
+## Modules
 
 ### [Pushwoosh](https://pushwoosh.github.io/pushwoosh-ios-sdk/PushwooshiOS/documentation/pushwooshframework/)
 Core SDK for push notifications, in-app messages, and analytics.
@@ -212,13 +231,13 @@ Optional gRPC transport layer for improved network performance. Automatically fa
 
 **Requirements:** iOS 13.0+
 
-## 🆘 Support
+## Support
 
 - 📖 [Documentation](https://docs.pushwoosh.com/)
 - 💬 [Support Portal](https://support.pushwoosh.com/)
 - 🐛 [Report Issues](https://github.com/Pushwoosh/pushwoosh-ios-sdk/issues)
 
-## 📄 License
+## License
 
 Pushwoosh iOS SDK is available under the MIT license. See [LICENSE](LICENSE) for details.
 
