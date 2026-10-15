@@ -50,63 +50,63 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PushwooshFramework",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.9/PushwooshFramework.xcframework.zip",
-            checksum: "f5a4881ab08085812223244d26d52e17e488ffcaf5b28f07c397cdca5c543c5f"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.10/PushwooshFramework.xcframework.zip",
+            checksum: "9a0fe4f08d9c2bff27dd400fb1aa03f1e0448b0dc7995b528a04892971539142"
         ),
         .binaryTarget(
             name: "PushwooshCore",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.9/PushwooshCore.xcframework.zip",
-            checksum: "49cfd30493eaede842ec7a607b04cbd5a92805dea7f4af08610e4ed51927867a"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.10/PushwooshCore.xcframework.zip",
+            checksum: "e62ab402b2b8bdd03e3fd89cff60bb4bf1e0622e495606985b2a4b3fce03f47d"
         ),
         .binaryTarget(
             name: "PushwooshBridge",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.9/PushwooshBridge.xcframework.zip",
-            checksum: "ac4742327fe5054345ab3f655296c98c0fe8b5ce2c870767e9c0e129d2ff773e"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.10/PushwooshBridge.xcframework.zip",
+            checksum: "7481f5289376a9aa783704bcc05da050051d0c409eebb58aa27a11e70c253a2a"
         ),
         .binaryTarget(
             name: "PushwooshLiveActivities",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.9/PushwooshLiveActivities.xcframework.zip",
-            checksum: "4d341fc56b834e8e999ed19ebf42d83e5687faafdd0d536423d9bc64c4250858"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.10/PushwooshLiveActivities.xcframework.zip",
+            checksum: "f8ade6136a3fedd4d38731d1b0f3f52d6e684b00416c89831a9bd818bdf5cebd"
         ),
         .binaryTarget(
             name: "PushwooshInboxKit",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.9/PushwooshInboxKit.xcframework.zip",
-            checksum: "b2166a4d336de18f0243efbf39d81d4b6720721ee6e31a7a051bc6dae658d354"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.10/PushwooshInboxKit.xcframework.zip",
+            checksum: "7bc601316909fee3c73b62f1cede2782da1b2c149cad78636d41666522cb653c"
         ),
         .binaryTarget(
             name: "PushwooshNotificationUI",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.9/PushwooshNotificationUI.xcframework.zip",
-            checksum: "9ee20a26f63df4f2e69c20404c0b1b30c471e2fb82b7bae67d0fc40cb284d412"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.10/PushwooshNotificationUI.xcframework.zip",
+            checksum: "125e9fa4c8408cc7f3ca80b59dc80a82e5ef732ecdf8f52968742b1c02188803"
         ),
         .binaryTarget(
             name: "PushwooshInApp",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.9/PushwooshInApp.xcframework.zip",
-            checksum: "cdbdca029df93365d2aa1c88d9ff4c23459902d74b6a3ad3265fccb25ae2d98e"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.10/PushwooshInApp.xcframework.zip",
+            checksum: "42bc500317594ef57e5324f46989df17dcd9177e6766b467909b2a5b8f5a46c0"
         ),
         .binaryTarget(
             name: "PushwooshVoIP",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.9/PushwooshVoIP.xcframework.zip",
-            checksum: "d9d800072e7ad8c9a75f90e0e4eeec97b85b672b014f37743a4a8467c274f175"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.10/PushwooshVoIP.xcframework.zip",
+            checksum: "223693cc3be0adb9d4d7d44c7ee335a5fbe22cc32a16805376b4d2621ee536d2"
         ),
         .binaryTarget(
             name: "PushwooshTVOS",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.9/PushwooshTVOS.xcframework.zip",
-            checksum: "04d1bc315c98176b936da1a08e8e9bf1bef9ae85e9d2f5d317bcb51393ed933e"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.10/PushwooshTVOS.xcframework.zip",
+            checksum: "70d01fa897f2dfa19ae376e5caaeab35739435b6596e6285464fcd2ff5131490"
         ),
         .binaryTarget(
             name: "PushwooshForegroundPush",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.9/PushwooshForegroundPush.xcframework.zip",
-            checksum: "505266960b3896fe557b13d02162b65a99ad7ccf30a16ecb7f82b8a09d87bbe8"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.10/PushwooshForegroundPush.xcframework.zip",
+            checksum: "e73cc9af6800b2f86ca0dc872ba72b152a8e7fd1a0ee5d20a05b89bb7086ac71"
         ),
         .binaryTarget(
             name: "PushwooshKeychain",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.9/PushwooshKeychain.xcframework.zip",
-            checksum: "2ae392ca910cef9fd0bc26825fb55e9b0c217c70f6e5453d13718b7bb61c3ed5"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.10/PushwooshKeychain.xcframework.zip",
+            checksum: "73d712267c16ea3699521728c6800d6746a80db43f17700ed172c7288fbe6ffa"
         ),
         .binaryTarget(
             name: "PushwooshGRPC",
-            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.9/PushwooshGRPC.xcframework.zip",
-            checksum: "079544ad29258cab8c34cdc0ea9cd81b738ebf726b8ed455b89b08f39cbed600"
+            url: "https://github.com/Pushwoosh/pushwoosh-ios-sdk/releases/download/7.2.10/PushwooshGRPC.xcframework.zip",
+            checksum: "c94669b064445ee259976c2c26e3d717976b4642b626f93269cebd5339c1e613"
         )
     ]
 )
